@@ -1,0 +1,8 @@
+---
+applications:
+  - name: onestop-ui
+    buildpacks:
+    - nodejs_buildpack
+    memory: 256M
+    instances: 1
+    command: node server.js
